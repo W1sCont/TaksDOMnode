@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+        <div class="chekLine" id="div1">
+
+            <input type="radio" id="choice1" name="radioChoice" checked>
+            <label>Додати елемент у кінець списку</label>
+            <input type="text" class="inpt" /><br>
+
+            <input type="radio" id="choice2" name="radioChoice">
+            <label>Вставити елемент списку</label>
+            <input type="text" class="inpt" /><br>
+
+            <input type="radio" id="choice3" name="radioChoice">
+            <label>Змінити текст елемента списку</label>
+            <input type="text" class="inpt" /><br>
+
+            <input type="radio" id="choice4" name="radioChoice">
+            <label>Додати вкладений список</label>
+            <input type="text" class="inpt" /><br>
+
+            <input type="radio" id="choice5" name="radioChoice">
+            <label>Видалити елемент списку</label><br>
+
+            <button id="button">Додати новий список</button>
+        </div>
+    </fieldset>
+    <div id="list">
+        <ul id="ul">
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
